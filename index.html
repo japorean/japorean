@@ -4,8 +4,9 @@
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
   <title>Mina Moon</title>
-  <!-- Import La Belle Aurore font -->
-  <link href="https://fonts.googleapis.com/css2?family=La+Belle+Aurore&display=swap" rel="stylesheet">
+  <!-- Import fonts -->
+  <link href="https://fonts.googleapis.com/css2?family=La+Belle+Aurore&display=swap" rel="stylesheet" />
+  <link href="https://fonts.googleapis.com/css2?family=Barlow:wght@600&display=swap" rel="stylesheet" />
   <style>
     @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap');
     * {
@@ -23,7 +24,7 @@
       flex-direction: column;
     }
 
-    /* Apply cursive font to name and description */
+    /* Cursive font for name & description */
     h1, p {
       font-family: 'La Belle Aurore', cursive;
     }
@@ -54,7 +55,7 @@
 
     h1 {
       margin: 0 0 8px;
-      font-weight: 400; /* Keep lighter for cursive */
+      font-weight: 400;
       font-size: 3rem;
       letter-spacing: 0.03em;
       color: #b29b3e;
@@ -68,21 +69,21 @@
       letter-spacing: 0.02em;
     }
 
+    /* Buttons with Barlow font */
     .links {
       display: flex;
       flex-direction: column;
       gap: 20px;
-      font-family: 'Poppins', sans-serif; /* Keep buttons sans-serif */
     }
 
     .links a {
-      display: block;
+      font-family: 'Barlow', sans-serif;
+      font-weight: 600;
       background: #b29b3e;
       color: #121212;
       text-decoration: none;
       padding: 16px 0;
       border-radius: 12px;
-      font-weight: 600;
       font-size: 1.3rem;
       box-shadow: 0 4px 8px rgba(178, 155, 62, 0.7);
       transition: background-color 0.3s ease, box-shadow 0.3s ease;
