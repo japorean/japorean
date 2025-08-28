@@ -6,16 +6,26 @@
   <title>Mina Moon</title>
   <style>
     @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap');
-    * { box-sizing: border-box; }
-
-    body {
+    * {
+      box-sizing: border-box;
       margin: 0;
+      padding: 0;
+    }
+
+    html, body {
+      height: 100%;
       background-color: #121212;
       font-family: 'Poppins', sans-serif;
       color: #b29b3e;
       display: flex;
+      flex-direction: column;
+    }
+
+    .content {
+      flex: 1;
+      display: flex;
       justify-content: center;
-      min-height: 100vh;
+      align-items: center;
       padding: 40px 20px;
     }
 
@@ -77,7 +87,8 @@
     }
 
     footer {
-      margin-top: 40px;
+      text-align: center;
+      padding: 20px;
       font-size: 0.85rem;
       color: #666;
       letter-spacing: 0.05em;
@@ -85,18 +96,20 @@
   </style>
 </head>
 <body>
-  <div class="container">
-    <img
-      src="https://raw.githubusercontent.com/japorean/images/refs/heads/main/mina%20moon.png"
-      alt="Mina Moon"
-      class="profile-pic"
-    />
-    <h1>Mina Moon</h1>
-    <p>Actor · Singer · Model</p>
-    <div class="links">
-      <a href="#">Film</a>
-      <a href="#">Music</a>
-      <a href="#">Muse</a>
+  <div class="content">
+    <div class="container">
+      <img
+        src="https://raw.githubusercontent.com/japorean/images/refs/heads/main/mina%20moon.png"
+        alt="Mina Moon"
+        class="profile-pic"
+      />
+      <h1>Mina Moon</h1>
+      <p>Actor · Singer · Creative</p>
+      <div class="links">
+        <a href="#">Film</a>
+        <a href="#">Music</a>
+        <a href="#">Muse</a>
+      </div>
     </div>
   </div>
   <footer>© 2025 Mina Moon</footer>
