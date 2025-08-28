@@ -7,40 +7,59 @@
   <style>
     @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap');
     * { box-sizing: border-box; }
+
     body {
       margin: 0;
       background-color: #121212;
       font-family: 'Poppins', sans-serif;
-      color: #fff;
+      color: #b29b3e; /* Gold font color */
       display: flex;
       justify-content: center;
       min-height: 100vh;
       padding: 40px 20px;
     }
+
     .container {
       max-width: 480px;
       width: 100%;
       text-align: center;
     }
+
     .profile-pic {
       width: 140px;
       height: 140px;
       border-radius: 50%;
       object-fit: cover;
       margin: 0 auto 24px auto;
-      border: 3px solid #222;
+      border: 3px solid #b29b3e;
       box-shadow: 0 0 12px rgba(255, 255, 255, 0.15);
     }
-    h1 { margin: 0 0 8px; font-weight: 600; font-size: 2.8rem; letter-spacing: 0.03em; }
-    p { margin: 0 0 36px; font-weight: 400; color: #bbbbbb; font-size: 1.15rem; letter-spacing: 0.02em; }
+
+    h1 {
+      margin: 0 0 8px;
+      font-weight: 600;
+      font-size: 2.8rem;
+      letter-spacing: 0.03em;
+      color: #b29b3e;
+    }
+
+    p {
+      margin: 0 0 36px;
+      font-weight: 400;
+      color: #b29b3e;
+      font-size: 1.15rem;
+      letter-spacing: 0.02em;
+    }
+
     .links {
       display: flex;
       flex-direction: column;
       gap: 20px;
     }
+
     .links a {
       display: block;
-      background: #b29b3e;  /* GOLD background always */
+      background: #b29b3e;
       color: #121212;
       text-decoration: none;
       padding: 16px 0;
@@ -50,12 +69,19 @@
       box-shadow: 0 4px 8px rgba(178, 155, 62, 0.7);
       transition: background-color 0.3s ease, box-shadow 0.3s ease;
     }
+
     .links a:hover {
       background: #d1b85f;
       box-shadow: 0 6px 12px rgba(209, 184, 95, 0.9);
       color: #121212;
     }
-    footer { margin-top: 40px; font-size: 0.85rem; color: #666; letter-spacing: 0.05em; }
+
+    footer {
+      margin-top: 40px;
+      font-size: 0.85rem;
+      color: #666;
+      letter-spacing: 0.05em;
+    }
   </style>
 </head>
 <body>
@@ -68,10 +94,9 @@
     <h1>Mina Moon</h1>
     <p>Actor · Singer · Creative</p>
     <div class="links">
-      <a href="https://instagram.com/minamoon" target="_blank" rel="noopener noreferrer">Instagram</a>
-      <a href="https://youtube.com" target="_blank" rel="noopener noreferrer">YouTube</a>
-      <a href="https://soundcloud.com" target="_blank" rel="noopener noreferrer">SoundCloud</a>
-      <a href="mailto:contact@minamoon.co">Contact</a>
+      <a href="#">Film</a>
+      <a href="#">Music</a>
+      <a href="#">Muse</a>
     </div>
   </div>
   <footer>© 2025 Mina Moon</footer>
